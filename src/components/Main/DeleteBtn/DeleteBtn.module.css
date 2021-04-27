@@ -1,0 +1,28 @@
+.DeleteBtnWrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+.DeleteBtn {
+    background: #55A985;
+    padding: 14.5px 24px;
+    width: 100%;
+    max-width: 210px;
+    border-radius: 4px;
+    color: #FAFAFA;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.DeleteBtn:disabled,
+.DeleteBtn:disabled:hover {
+    background: #C9C9C9;
+}
+
+.DeleteBtn:hover {
+    background: #60BE96;
+}
+
+.DeleteBtn:focus {
+    background: #3F8D6C;
+}
